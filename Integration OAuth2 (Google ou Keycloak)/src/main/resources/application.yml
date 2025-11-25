@@ -1,0 +1,19 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 910101456334-r232413sj4g4qvhk8u5o9lnjddjgj21v.apps.googleusercontent.com
+
+            client-secret: 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
+            scope:
+              - openid
+              - profile
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework.security: DEBUG
